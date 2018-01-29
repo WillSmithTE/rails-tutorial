@@ -5,6 +5,6 @@ class ApplicationController < ActionController::Base
     render html: "ola amigo"
   end
   def testing
-    render html: '{<h1>BIG TITLE</h1>"smaller"}'
+    render html: 'oh dam thats so sweet {<h1>BIG TITLE</h1>"smaller"}'
   end
 end
